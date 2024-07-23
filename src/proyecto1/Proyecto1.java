@@ -8,6 +8,7 @@ package proyecto1;
 public class Proyecto1 {
     public static void main (String [] args){
         
+        System.out.println("HOLA MUNDO");
         Proyecto1 proyecto1 = new Proyecto1();
         
         String [][] molde = proyecto1.consultarMolde();
@@ -50,7 +51,7 @@ public class Proyecto1 {
         for(int i = 0; i < molde.length; i++){
             for(int j = 0; j < molde[i].length; j++){
                 if(molde[i][j].equals("-")){
-                    molde[i][j] = " -------- ";
+                    molde[i][j] = " 000000 ";
                 }
             }
         }
